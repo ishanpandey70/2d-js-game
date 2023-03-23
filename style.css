@@ -1,0 +1,20 @@
+/* Star or asterisk selects all the elements */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+#canvas1{
+    border: 5px solid black;
+    position: absolute;
+    /* The three lines below make the canvas centered */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #4d79bc;
+    
+
+}
